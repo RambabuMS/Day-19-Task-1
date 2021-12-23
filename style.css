@@ -1,0 +1,29 @@
+.flex-container{
+    display: flex;
+}
+.f2{
+ margin-left: 100px;
+ width: 70%;
+}
+body{
+    background-color: #eef0ec;
+    color: #456268;
+    margin: 50px;
+}
+
+.span{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+table{
+    overflow-y: scroll;
+    overflow-x: scroll;
+    
+}
+
+@media screen and( min-width:567px){
+    .modified{
+        width:100%
+    }
+}
