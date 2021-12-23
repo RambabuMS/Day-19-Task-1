@@ -37,18 +37,16 @@ function appendtotable(){
         
         let food1 = document.getElementsByName("food")
         let foodList = [];
-        let count = 0;
-    console.log(food1);
         for(let i=0;i<food1.length;i++){
             if(food1[i].checked){
                 foodList.push(food1[i].value)
-                count++;
             }
         }
         if(foodList.length>=2){
             result = foodList.join(", ")
         }else{
-            result = alert("Must choose atleast 2 out of 5 in food list")
+            result = alert("Must choose atleast 2 out of 5 in food list");
+            result = foodList.push("undefined");
         }
                 
                 var table=document.getElementById('tab')
