@@ -47,7 +47,7 @@ function appendtotable(){
         if(foodList.length>=2){
             result = foodList.join(", ")
         }else{
-            result = alert("Choose min 2 out of 5 in food list")
+            result = alert("Must choose atleast 2 out of 5 in food list")
         }
                 
                 var table=document.getElementById('tab')
