@@ -38,6 +38,7 @@ function appendtotable(){
         let food1 = document.getElementsByName("food")
         let foodList = [];
         let count = 0;
+    console.log(food1);
         for(let i=0;i<food1.length;i++){
             if(food1[i].checked){
                 foodList.push(food1[i].value)
