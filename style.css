@@ -1,29 +1,39 @@
-.flex-container{
-    display: flex;
-}
-.f2{
- margin-left: 100px;
- width: 70%;
-}
-body{
-    background-color: #eef0ec;
-    color: #456268;
-    margin: 50px;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.span{
-    font-weight: lighter;
-    font-style: italic;
+.f1 {
+  width: 30%;
 }
 
-table{
-    overflow-y: scroll;
-    overflow-x: scroll;
-    
+.f2 {
+  margin-left: 5%;
+  width: 65%;
+  /* display: inline-flex; */
+}
+body {
+  background-color: #eef0ec;
+  color: #456268;
+  margin: 50px;
 }
 
-@media screen and( min-width:567px){
-    .modified{
-        width:100%
-    }
+.span {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+table {
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+@media only screen and (max-width: 950px) {
+  .f1 {
+    width: 100%;
+  }
+  .f2 {
+    width: 100%;
+    margin-left: 0px;
+  }
 }
